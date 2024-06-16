@@ -81,3 +81,10 @@ body {
   div,p {
     text-align: center;
   }
+
+  .logo {
+    position: relative;
+    width: 300px;
+    height: 100px;
+    justify-self: left;
+  }
