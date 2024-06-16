@@ -23,7 +23,7 @@ nav ul li{
 
 .home {
   background-color: darkorange;
-  width: 100px;
+  width: 110px;
   text-align: center;
   font-weight: bold;
   float: right;
@@ -33,7 +33,7 @@ nav ul li{
   display: block;
   text-decoration: none;
   color: white;
-  padding: 15px 15px;
+  padding: 15px 10px;
 }
 
 .dropdown {
