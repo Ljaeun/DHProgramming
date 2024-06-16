@@ -1,140 +1,50 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
+<!doctype html>
+<html lang="ko">
+  <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-        
-    <link rel="stylesheet" href="styles.css">
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" type="text/css" href="dynamic_bar_css.css">
+    <title>Healthcare Programming</title>
+  </head>
 
-    <title>Healthcare programming</title>
-</head>
-
-<body>
-    <div class="container">
-        <div class="topbar">
-            <div class="logo">
-                <h2>Healthcare programming</h2>
-            </div>
-            <div class="search">
-                <label for="search"><i class="fas fa-search"></i></label>
-            </div>
-            <i class="fas fa-bell"></i>
-            <div class="user">
-              <img src="https://upload.wikimedia.org/wikipedia/ko/a/a2/PKNU_Logo.png?20210915113624" alt="PKNU_Logo">
-            </div>
-        </div>
-        <div class="sidebar">
-            <ul>
-                <li>
-                    <a href="#">
-                        <i class="fas fa-th-large"></i>
-                        <div>How to Github</div>
-                    </a>
-                </li>
-                <li>
-                    <a href="depoly.html">
-                        <i class="fas fa-user-graduate"></i>
-                        <div>How to Deploy</div>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <i class="fas fa-chalkboard-teacher"></i>
-                        <div>...</div>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <i class="fas fa-users"></i>
-                        <div>...</div>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <i class="fas fa-chart-bar"></i>
-                        <div>...</div>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <i class="fas fa-hand-holding-usd"></i>
-                        <div>...</div>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <i class="fas fa-cog"></i>
-                        <div>...</div>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <i class="fas fa-question"></i>
-                        <div>...</div>
-                    </a>
-                </li>
-            </ul>
-        </div>
-        <div class="main">
-            <div class="cards">
-                <div class="card">
-                    <div class="card-content">
-                        <div class="number">1217</div>
-                        <div class="card-name">Students</div>
-                    </div>
-                    <div class="icon-box">
-                        <i class="fas fa-user-graduate"></i>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-content">
-                        <div class="number">42</div>
-                        <div class="card-name">Teachers</div>
-                    </div>
-                    <div class="icon-box">
-                        <i class="fas fa-chalkboard-teacher"></i>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-content">
-                        <div class="number">68</div>
-                        <div class="card-name">Employees</div>
-                    </div>
-                    <div class="icon-box">
-                        <i class="fas fa-users"></i>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-content">
-                        <div class="number">$4500</div>
-                        <div class="card-name">Earnings</div>
-                    </div>
-                    <div class="icon-box">
-                        <i class="fas fa-dollar-sign"></i>
-                    </div>
-                </div>
-            </div>
-            <div class="charts">
-                <div class="chart">
-                    <h2>Heart rate</h2>
-                    <div>
-                        <canvas id="lineChart"></canvas>
-                    </div>
-                </div>
-            <div class="chart doughnut-chart">
-                <h2>Body temp.</h2>
-                <div>
-                    <canvas id="doughnut"></canvas>
-                </div>
-            </div>
+  <body>
+    <nav>
+      <ul>
+        <li class="dropdown">
+          <div class="dropdown-menu">Github</div>
+          <div class="dropdown-content">
+            <a href="basic_github.html">How to use Github</a>
+            <a href="depoly.html">How to deploy HTML doc.</a>
+            <a href="#">Menu1-3</a>
+            <a href="#">Menu1-4</a>
           </div>
-        </div>
-    </div>
-
-    <script src="chart1.js"></script>
-    <script src="chart2.js"></script>
-</body>
+        </li>
+        <li class="dropdown">
+          <div class="dropdown-menu">Menu2</div>
+          <div class="dropdown-content">
+            <a href="#">Menu2-1</a>
+            <a href="#">Menu2-2</a>
+            <a href="#">Menu2-3</a>
+            <a href="#">Menu2-4</a>
+          </div>
+        </li>
+        <li class="dropdown">
+          <div class="dropdown-menu">Menu3</div>
+          <div class="dropdown-content">
+            <a href="#">Menu3-1</a>
+            <a href="#">Menu3-2</a>
+            <a href="#">Menu3-3</a>
+            <a href="#">Menu3-4</a>
+          </div>
+        </li>
+        <li class="dropdown">
+          <div class="dropdown-menu">Menu4</div>
+        </li>
+        <li class="home"><a href="dynamic_bar.html">Home</a></li>
+      </ul>
+    </nav>
+    <h1>Healthcare Programming</h1>
+    
+  </body>
 
 </html>
